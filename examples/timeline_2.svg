@@ -1,0 +1,78 @@
+<svg width="1550" height="497" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect width="1550" height="497" fill="#FFFFFF" />\n  <style>
+  </style>
+<g transform="translate(125.00, 248.60)">
+  <line x1="0.00" y1="0.00" x2="0.00" y2="0.00" stroke="#FFCA28" stroke-width="12.00" stroke-linecap="round" />
+  <polygon points="0.00,9.00 -9.00,0.00 9.00,0.00" fill="#FFCA28" />  <polygon points="0.00,-9.00 -9.00,0.00 9.00,0.00" fill="#FFCA28" />
+  <line x1="0.00" y1="-55.00" x2="0.00" y2="0.00" stroke="#FFCA28" stroke-width="2.00" />
+  <circle cx="0.00" cy="-55.00" r="30.00" fill="#FFFFFF" stroke="#FFCA28" stroke-width="3.00"/>
+    <text x="0.00" y="-55.00" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#A17400" dominant-baseline="middle" text-anchor="middle">2017</text>
+    <rect x="-75.00" y="55.00" width="150.00" height="143.60" fill="none" stroke="red" stroke-width="1.00" rx="3" ry="3"/>
+    <text x="0.00" y="65.00" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" font-style="normal" fill="#A17400" text-anchor="middle" dominant-baseline="hanging">TITLE LINE 01</text>
+ <line x1="-15.00" y1="83.60" x2="15.00" y2="83.60" stroke="#FFCA28" stroke-width="2.00" />
+    <foreignObject x="-65.00" y="88.60" width="130.00" height="100.00">
+        <div xmlns="http://www.w3.org/1999/xhtml"><div class="comment-html-content" style="color:#757575; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:normal; font-style:normal; text-align:left;">Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.
+</div></div>
+    </foreignObject>
+  <line x1="0.00" y1="0.00" x2="260.00" y2="0.00" stroke="#FFA726" stroke-width="12.00" stroke-linecap="round" />
+  <polygon points="260.00,9.00 251.00,0.00 269.00,0.00" fill="#FFA726" />  <polygon points="260.00,-9.00 251.00,0.00 269.00,0.00" fill="#FFA726" />
+  <line x1="260.00" y1="55.00" x2="260.00" y2="0.00" stroke="#FFA726" stroke-width="2.00" />
+  <circle cx="260.00" cy="55.00" r="30.00" fill="#FFFFFF" stroke="#FFA726" stroke-width="3.00"/>
+    <text x="260.00" y="55.00" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#B85C00" dominant-baseline="middle" text-anchor="middle">2018</text>
+    <rect x="150.00" y="-198.60" width="220.00" height="143.60" fill="none" stroke="red" stroke-width="1.00" rx="3" ry="3"/>
+    <text x="260.00" y="-188.60" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" font-style="normal" fill="#B85C00" text-anchor="middle" dominant-baseline="hanging">TITLE LINE 02</text>
+ <line x1="245.00" y1="-170.00" x2="275.00" y2="-170.00" stroke="#FFA726" stroke-width="2.00" />
+    <foreignObject x="160.00" y="-165.00" width="200.00" height="100.00">
+        <div xmlns="http://www.w3.org/1999/xhtml"><div class="comment-html-content" style="color:#757575; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:normal; font-style:normal; text-align:left;">Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.
+</div></div>
+    </foreignObject>
+  <line x1="260.00" y1="0.00" x2="520.00" y2="0.00" stroke="#FF7043" stroke-width="12.00" stroke-linecap="round" />
+  <polygon points="520.00,9.00 511.00,0.00 529.00,0.00" fill="#FF7043" />  <polygon points="520.00,-9.00 511.00,0.00 529.00,0.00" fill="#FF7043" />
+  <line x1="520.00" y1="-55.00" x2="520.00" y2="0.00" stroke="#FF7043" stroke-width="2.00" />
+  <circle cx="520.00" cy="-55.00" r="30.00" fill="#FFFFFF" stroke="#FF7043" stroke-width="3.00"/>
+    <text x="520.00" y="-55.00" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#C43100" dominant-baseline="middle" text-anchor="middle">2019</text>
+    <rect x="445.00" y="55.00" width="150.00" height="143.60" fill="none" stroke="red" stroke-width="1.00" rx="3" ry="3"/>
+    <text x="520.00" y="65.00" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" font-style="normal" fill="#C43100" text-anchor="middle" dominant-baseline="hanging">TITLE LINE 03</text>
+ <line x1="505.00" y1="83.60" x2="535.00" y2="83.60" stroke="#FF7043" stroke-width="2.00" />
+    <foreignObject x="455.00" y="88.60" width="130.00" height="100.00">
+        <div xmlns="http://www.w3.org/1999/xhtml"><div class="comment-html-content" style="color:#757575; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:normal; font-style:normal; text-align:left;">Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.
+</div></div>
+    </foreignObject>
+  <line x1="520.00" y1="0.00" x2="780.00" y2="0.00" stroke="#EC407A" stroke-width="12.00" stroke-linecap="round" />
+  <polygon points="780.00,9.00 771.00,0.00 789.00,0.00" fill="#EC407A" />  <polygon points="780.00,-9.00 771.00,0.00 789.00,0.00" fill="#EC407A" />
+  <line x1="780.00" y1="55.00" x2="780.00" y2="0.00" stroke="#EC407A" stroke-width="2.00" />
+  <circle cx="780.00" cy="55.00" r="30.00" fill="#FFFFFF" stroke="#EC407A" stroke-width="3.00"/>
+    <text x="780.00" y="55.00" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#B0003A" dominant-baseline="middle" text-anchor="middle">2020</text>
+    <rect x="705.00" y="-198.60" width="150.00" height="143.60" fill="none" stroke="red" stroke-width="1.00" rx="3" ry="3"/>
+    <text x="780.00" y="-188.60" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" font-style="normal" fill="#B0003A" text-anchor="middle" dominant-baseline="hanging">TITLE LINE 04</text>
+ <line x1="765.00" y1="-170.00" x2="795.00" y2="-170.00" stroke="#EC407A" stroke-width="2.00" />
+    <foreignObject x="715.00" y="-165.00" width="130.00" height="100.00">
+        <div xmlns="http://www.w3.org/1999/xhtml"><div class="comment-html-content" style="color:#757575; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:normal; font-style:normal; text-align:left;">Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.
+</div></div>
+    </foreignObject>
+  <line x1="780.00" y1="0.00" x2="1040.00" y2="0.00" stroke="#7E57C2" stroke-width="12.00" stroke-linecap="round" />
+  <polygon points="1040.00,9.00 1031.00,0.00 1049.00,0.00" fill="#7E57C2" />  <polygon points="1040.00,-9.00 1031.00,0.00 1049.00,0.00" fill="#7E57C2" />
+  <line x1="1040.00" y1="-55.00" x2="1040.00" y2="0.00" stroke="#7E57C2" stroke-width="2.00" />
+  <circle cx="1040.00" cy="-55.00" r="30.00" fill="#FFFFFF" stroke="#7E57C2" stroke-width="3.00"/>
+    <text x="1040.00" y="-55.00" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#421E8E" dominant-baseline="middle" text-anchor="middle">2021</text>
+    <rect x="965.00" y="55.00" width="150.00" height="143.60" fill="none" stroke="red" stroke-width="1.00" rx="3" ry="3"/>
+    <text x="1040.00" y="65.00" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" font-style="normal" fill="#421E8E" text-anchor="middle" dominant-baseline="hanging">TITLE LINE 05</text>
+ <line x1="1025.00" y1="83.60" x2="1055.00" y2="83.60" stroke="#7E57C2" stroke-width="2.00" />
+    <foreignObject x="975.00" y="88.60" width="130.00" height="100.00">
+        <div xmlns="http://www.w3.org/1999/xhtml"><div class="comment-html-content" style="color:#757575; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:normal; font-style:normal; text-align:left;">Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.
+</div></div>
+    </foreignObject>
+  <line x1="1040.00" y1="0.00" x2="1300.00" y2="0.00" stroke="#004D40" stroke-width="12.00" stroke-linecap="round" />
+  <polygon points="1300.00,9.00 1291.00,0.00 1309.00,0.00" fill="#004D40" />  <polygon points="1300.00,-9.00 1291.00,0.00 1309.00,0.00" fill="#004D40" />
+  <line x1="1300.00" y1="55.00" x2="1300.00" y2="0.00" stroke="#004D40" stroke-width="2.00" />
+  <circle cx="1300.00" cy="55.00" r="30.00" fill="#FFFFFF" stroke="#004D40" stroke-width="3.00"/>
+    <text x="1300.00" y="55.00" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#004D40" dominant-baseline="middle" text-anchor="middle">2022</text>
+    <rect x="1225.00" y="-198.60" width="150.00" height="143.60" fill="none" stroke="red" stroke-width="1.00" rx="3" ry="3"/>
+    <text x="1300.00" y="-188.60" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" font-style="normal" fill="#00251A" text-anchor="middle" dominant-baseline="hanging">TITLE LINE 06</text>
+ <line x1="1285.00" y1="-170.00" x2="1315.00" y2="-170.00" stroke="#004D40" stroke-width="2.00" />
+    <foreignObject x="1235.00" y="-165.00" width="130.00" height="100.00">
+        <div xmlns="http://www.w3.org/1999/xhtml"><div class="comment-html-content" style="color:#757575; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:normal; font-style:normal; text-align:left;">Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.
+</div></div>
+    </foreignObject>
+</g>
+</svg>

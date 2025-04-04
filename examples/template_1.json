@@ -1,0 +1,81 @@
+{
+    "center_line": {
+        "width": 3,
+        "type": "solid",
+        "orientation": "horizontal",
+        "color": "#BDBDBD"
+    },
+    "layout": {
+        "padding": 60,
+        "entry_spacing": 200,
+        "connector_length": 45
+    },
+    "global_font": {
+        "font_family": "Helvetica, Arial, sans-serif",
+        "font_size": 10,
+        "font_weight": "normal",
+        "font_style": "normal"
+    },
+    "period_defaults": {
+        "year_text": {
+            "position": "start",
+            "main_axis_offset": 0,
+            "cross_axis_offset": 5,
+            "font": {
+                "font_family": "Georgia, serif",
+                "font_size": 12,
+                "font_weight": "bold",
+                "font_style": "normal"
+            },
+            "text_color": "#212121"
+        },
+        "connector": {
+            "color": "#757575",
+            "line_type": "dotted",
+            "width": 4,
+            "draw_to_period": true,
+            "draw_to_comment": true,
+            "dot": {
+                "size": 10,
+                "color": "#757575",
+                "shape": "circle",
+                "visible": true,
+                "offset_main": 0,
+                "offset_cross": 0,
+                "stop_at_dot": true
+            }
+        },
+        "comment_text": {
+            "position": "alternate-start-end",
+            "main_axis_offset": 0,
+            "cross_axis_offset": 0,
+            "font": {
+                "font_size": 12,
+                "font_style": "italic"
+            },
+            "title_font": {},
+            "title_line": {
+                "visible": false,
+                "color": "",
+                "width": 0,
+                "length": 0,
+                "margin": 0
+            },
+            "shape": "rectangle",
+            "fill_color": "#FAFAFA",
+            "text_color": "#616161",
+            "padding": "10",
+            "border_color": "#EEEEEE",
+            "border_width": 1,
+            "border_style": "solid"
+        },
+        "centerline_projection": {
+            "color": "#757575"
+        },
+        "junction_marker": {
+            "shape": "none",
+            "size": 0,
+            "color": null
+        }
+    }
+}

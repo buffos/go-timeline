@@ -1,0 +1,89 @@
+{
+    "center_line": {
+        "color": "#BDBDBD",
+        "orientation": "horizontal",
+        "rounded_caps": true,
+        "type": "solid",
+        "width": 12
+    },
+    "global_font": {
+        "font_family": "Arial, Helvetica, sans-serif",
+        "font_size": 12,
+        "font_style": "normal",
+        "font_weight": "normal"
+    },
+    "layout": {
+        "connector_length": 55,
+        "entry_spacing": 260,
+        "padding": 50
+    },
+    "period_defaults": {
+        "centerline_projection": {
+            "color": "#BDBDBD"
+        },
+        "comment_text": {
+            "border_color": "red",
+            "border_style": "solid",
+            "border_width": 1,
+            "cross_axis_offset": 0,
+            "fill_color": "",
+            "font": {
+                "font_size": 11
+            },
+            "main_axis_offset": 0,
+            "padding": "10 10",
+            "block_width": 130,
+            "position": "alternate-start-end",
+            "shape": "rectangle",
+            "text_align": "left",
+            "text_color": "#757575",
+            "title_color": "#424242",
+            "title_font": {
+                "font_size": 13,
+                "font_weight": "bold"
+            },
+            "title_line": {
+                "color": "",
+                "length": 30,
+                "margin": 3,
+                "visible": true,
+                "width": 2
+            }
+        },
+        "connector": {
+            "color": "#BDBDBD",
+            "dot": {
+                "color": "",
+                "offset_cross": 0,
+                "offset_main": 0,
+                "shape": "none",
+                "size": 0,
+                "stop_at_dot": true,
+                "visible": false
+            },
+            "draw_to_comment": false,
+            "draw_to_period": true,
+            "line_type": "solid",
+            "width": 2
+        },
+        "junction_marker": {
+            "color": null,
+            "shape": "diamond",
+            "size": 18
+        },
+        "year_text": {
+            "border_color": "",
+            "border_width": 3,
+            "cross_axis_offset": 0,
+            "fill_color": "#FFFFFF",
+            "font": {
+                "font_size": 15,
+                "font_weight": "bold"
+            },
+            "main_axis_offset": 0,
+            "position": "alternate-end-start",
+            "shape": "circle;r=30",
+            "text_color": "#424242"
+        }
+    }
+}

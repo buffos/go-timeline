@@ -1,0 +1,96 @@
+{
+    "entries": [
+        {
+            "comment_text_override": {
+                "border_color": "#FFB300",
+                "fill_color": "#FFB300",
+                "padding": "20 40"
+            },
+            "period": "March",
+            "title_text": "Initial Planning"
+        },
+        {
+            "comment_text_override": {
+                "border_color": "#AD1457",
+                "fill_color": "#AD1457",
+                "padding": "20 40"
+            },
+            "period": "April",
+            "title_text": "Research/\nBrainstorming"
+        },
+        {
+            "comment_text_override": {
+                "border_color": "#F44336",
+                "fill_color": "#F44336",
+                "padding": "20 40"
+            },
+            "period": "May",
+            "title_text": "Initial Designs",
+	"connector_override":{
+	            "dot": {
+                "shape": "arrow",
+                "size": 10,
+		"color": "red",
+	        "visible": true,
+		"offset_main": 0,
+		"offset_cross": 20,
+		"stop_at_dot": true
+            }
+	}
+        },
+        {
+            "comment_text_override": {
+                "border_color": "#00695C",
+                "fill_color": "#00695C",
+                "padding": "20 40"
+            },
+            "period": "June",
+            "title_text": "User Surveys/QA"
+        },
+        {
+            "comment_text_override": {
+                "border_color": "#AD1457",
+                "fill_color": "#AD1457",
+                "padding": "20 40"
+            },
+            "period": "July",
+            "title_text": "Stakeholder\nFeedback Meeting"
+        },
+        {
+            "comment_text_override": {
+                "border_color": "#FFB300",
+                "fill_color": "#FFB300",
+                "padding": "20 40"
+            },
+            "period": "August",
+            "title_text": "Revisions Meeting"
+        },
+        {
+            "comment_text_override": {
+                "border_color": "#0277BD",
+                "fill_color": "#0277BD",
+                "padding": "5"
+            },
+            "period": "September",
+            "title_text": "First Design Release\nto Public"
+        },
+        {
+            "comment_text_override": {
+                "border_color": "#00838F",
+                "fill_color": "#00838F",
+                "padding": "20 40"
+            },
+            "period": "October",
+            "title_text": "Second Design\nRelease to Public"
+        },
+        {
+            "comment_text_override": {
+                "border_color": "#AD1457",
+                "fill_color": "#AD1457",
+                "padding": "20 40"
+            },
+            "period": "November",
+            "title_text": "Project Completion"
+        }
+    ]
+}

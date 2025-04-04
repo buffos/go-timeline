@@ -1,0 +1,82 @@
+{
+    "entries": [
+        {
+            "period": "Event Alpha (1950)",
+            "comment_text": "The first significant event occurred around this time. It set the stage for future developments.",
+            "centerline_projection_override": {
+                "color": "#4CAF50"
+            },
+            "year_text_override": {
+                "main_axis_offset": -15
+            },
+            "comment_text_override": {
+                "cross_axis_offset": 50
+            }
+        },
+        {
+            "period": "Mid-Century Shift (1965)",
+            "comment_text": "A period of change. <br/><i>New approaches emerged.</i>",
+            "comment_image": "https://via.placeholder.com/80x30.png?text=Shift",
+            "link": "https://example.com/shift",
+            "connector_override": {
+                "color": "#FF9800",
+                "line_type": "solid",
+                "dot": {
+                    "shape": "square",
+                    "size": 12,
+                    "offset": -5
+                }
+            },
+            "comment_text_override": {
+                "position": "end",
+                "cross_axis_offset": 10,
+                "font": {
+                    "font_weight": "bold",
+                    "font_style": "normal"
+                },
+                "fill_color": "#FFF3E0"
+            },
+            "year_text_override": {
+                "font": {
+                    "font_family": "Impact, sans-serif"
+                },
+                "text_color": "#FF5722"
+            }
+        },
+        {
+            "period": "The Consolidation Era (1980-1990)",
+            "comment_text": "Things started coming together.",
+            "entry_spacing_override": 250,
+            "comment_text_override": {
+                "shape": "none"
+            }
+        },
+        {
+            "period": "Turn of the Millennium (2000)",
+            "comment_text": "A new beginning.",
+            "connector_override": {
+                "dot": {
+                    "visible": false
+                }
+            },
+            "centerline_projection_override": {
+                "color": "#2196F3"
+            },
+            "year_text_override": {
+                "position": "alternate-end-start"
+            }
+        },
+        {
+            "period": "Recent Developments (2020)",
+            "comment_text": "Current state of affairs.",
+            "comment_text_override": {
+                "main_axis_offset": 25,
+                "cross_axis_offset": -5,
+                "font": {
+                    "font_size": 10
+                },
+                "border_style": "dashed"
+            }
+        }
+    ]
+}

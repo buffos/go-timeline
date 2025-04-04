@@ -1,0 +1,143 @@
+{
+    "entries": [
+        {
+            "period": "2017",
+            "title_text": "TITLE LINE 01",
+            "comment_text": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.",
+            "centerline_projection_override": {
+                "color": "#FFCA28"
+            },
+            "connector_override": {
+                "color": "#FFCA28"
+            },
+            "year_text_override": {
+                "border_color": "#FFCA28",
+                "text_color": "#A17400"
+            },
+            "comment_text_override": {
+                "title_line": {
+                    "color": "#FFCA28"
+                },
+                "title_color": "#A17400"
+            }
+        },
+        {
+            "period": "2018",
+            "title_text": "TITLE LINE 02",
+            "comment_text": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.",
+            "centerline_projection_override": {
+                "color": "#FFA726"
+            },
+            "connector_override": {
+                "color": "#FFA726"
+            },
+            "year_text_override": {
+                "border_color": "#FFA726",
+                "text_color": "#B85C00"
+            },
+            "comment_text_override": {
+                "title_line": {
+                    "color": "#FFA726"
+                },
+                "title_color": "#B85C00",
+                "block_width": 200
+            }
+        },
+        {
+            "period": "2019",
+            "title_text": "TITLE LINE 03",
+            "entry_spacing_override":500,
+	        "orientation_override": "vertical",
+            "comment_text": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.",
+            "centerline_projection_override": {
+                "color": "#FF7043"
+            },
+            "connector_override": {
+                "color": "#FF7043",
+                "dot": {
+                    "stop_at_dot": true
+                }
+            },
+            "year_text_override": {
+                "border_color": "#FF7043",
+                "text_color": "#C43100",
+                "cross_axis_offset": 40,
+		"main_axis_offset": 40
+            },
+            "comment_text_override": {
+                "title_line": {
+                    "color": "#FF7043"
+                },
+                "title_color": "#C43100"
+            }
+        },
+        {
+            "period": "2020",
+            "angle_override": 90,
+            "title_text": "TITLE LINE 04",
+            "comment_text": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.",
+            "centerline_projection_override": {
+                "color": "#EC407A"
+            },
+            "connector_override": {
+                "color": "#EC407A"
+            },
+            "year_text_override": {
+                "border_color": "#EC407A",
+                "text_color": "#B0003A"
+            },
+            "comment_text_override": {
+                "main_axis_offset": -120,
+                "title_line": {
+                    "color": "#EC407A"
+                },
+                "title_color": "#B0003A"
+            }
+        },
+        {
+            "period": "2021",
+            "title_text": "TITLE LINE 05",
+ 		"angle_override": 180,
+ "entry_spacing_override":300,
+            "comment_text": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.",
+            "centerline_projection_override": {
+                "color": "#7E57C2"
+            },
+            "connector_override": {
+                "color": "#7E57C2"
+            },
+            "year_text_override": {
+                "border_color": "#7E57C2",
+                "text_color": "#421E8E"
+            },
+            "comment_text_override": {
+                "title_line": {
+                    "color": "#7E57C2"
+                },
+                "title_color": "#421E8E"
+            }
+        },
+        {
+            "period": "2022",
+            "title_text": "TITLE LINE 06",
+"angle_override": 180,
+            "comment_text": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.",
+            "centerline_projection_override": {
+                "color": "#004D40"
+            },
+            "connector_override": {
+                "color": "#004D40"
+            },
+            "year_text_override": {
+                "border_color": "#004D40",
+                "text_color": "#004D40"
+            },
+            "comment_text_override": {
+                "title_line": {
+                    "color": "#004D40"
+                },
+                "title_color": "#00251A"
+            }
+        }
+    ]
+}

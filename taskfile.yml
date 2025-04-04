@@ -1,0 +1,31 @@
+version: '3'
+
+
+tasks:
+    build:
+        go build -o timeline-generator.exe
+    run-svg:
+        deps: [build]
+        cmds:
+            - ./timeline-generator.exe ./examples/template.json ./examples/data.json svg > ./examples/timeline.svg
+    run-svg-*:
+        deps: [build]
+        vars:
+            NUM: '{{index .MATCH 0}}'
+        cmds:
+            - ./timeline-generator.exe ./examples/template_{{.NUM}}.json ./examples/data_{{.NUM}}.json svg > ./examples/timeline_{{.NUM}}.svg
+    run-html:
+        deps: [build]
+        cmds:
+            - ./timeline-generator.exe ./examples/template.json ./examples/data.json html > ./examples/timeline.html
+    run-png:
+        deps: [build]
+        cmds:
+            - ./timeline-generator.exe -o ./examples/timeline.png ./examples/template.json ./examples/data.json png
+    run-jpg:
+        deps: [build]
+        cmds:
+            - ./timeline-generator.exe -o ./examples/timeline.jpg ./examples/template.json ./examples/data.json jpg
+    test:
+        cmds:
+            - go test -v ./...

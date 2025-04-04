@@ -1,0 +1,64 @@
+<svg width="1252" height="306" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect width="1252" height="306" fill="#FFFFFF" />\n  <style>
+  </style>
+<g transform="translate(142.80, 153.20)">
+  <line x1="0.00" y1="0.00" x2="0.00" y2="0.00" stroke="#E0E0E0" stroke-width="20.00" stroke-linecap="round" />
+  <line x1="0.00" y1="0.00" x2="120.00" y2="0.00" stroke="#E0E0E0" stroke-width="20.00" stroke-linecap="round" />
+  <line x1="120.00" y1="0.00" x2="240.00" y2="0.00" stroke="#E0E0E0" stroke-width="20.00" stroke-linecap="round" />
+  <line x1="240.00" y1="0.00" x2="360.00" y2="0.00" stroke="#E0E0E0" stroke-width="20.00" stroke-linecap="round" />
+  <line x1="360.00" y1="0.00" x2="480.00" y2="0.00" stroke="#E0E0E0" stroke-width="20.00" stroke-linecap="round" />
+  <line x1="480.00" y1="0.00" x2="600.00" y2="0.00" stroke="#E0E0E0" stroke-width="20.00" stroke-linecap="round" />
+  <line x1="600.00" y1="0.00" x2="720.00" y2="0.00" stroke="#E0E0E0" stroke-width="20.00" stroke-linecap="round" />
+  <line x1="720.00" y1="0.00" x2="840.00" y2="0.00" stroke="#E0E0E0" stroke-width="20.00" stroke-linecap="round" />
+  <line x1="840.00" y1="0.00" x2="960.00" y2="0.00" stroke="#E0E0E0" stroke-width="20.00" stroke-linecap="round" />
+    <text x="0.00" y="0.00" font-family="Arial, sans-serif" font-size="10" font-weight="bold" font-style="normal" fill="#424242" dominant-baseline="middle" text-anchor="middle">March</text>
+  <line x1="0.00" y1="103.20" x2="0.00" y2="20.00" stroke="#616161" stroke-width="1.00" />
+  <line x1="0.00" y1="20.00" x2="-20.00" y2="20.00" stroke="#616161" stroke-width="1.00" />
+  <polygon points="-25.00,20.00 -15.00,20.00 -20.00,14.00" fill="#000000"/>\n    <rect x="-92.80" y="50.00" width="185.60" height="53.20" fill="#FFB300" stroke="#FFB300" stroke-width="1.00" rx="3" ry="3"/>
+    <text x="0.00" y="70.00" font-family="Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="hanging">Initial Planning</text>
+    <text x="120.00" y="0.00" font-family="Arial, sans-serif" font-size="10" font-weight="bold" font-style="normal" fill="#424242" dominant-baseline="middle" text-anchor="middle">April</text>
+  <line x1="120.00" y1="-103.20" x2="120.00" y2="-20.00" stroke="#616161" stroke-width="1.00" />
+  <line x1="120.00" y1="-20.00" x2="140.00" y2="-20.00" stroke="#616161" stroke-width="1.00" />
+  <polygon points="135.00,-20.00 145.00,-20.00 140.00,-14.00" fill="#000000"/>\n    <rect x="4.10" y="-103.20" width="231.80" height="53.20" fill="#AD1457" stroke="#AD1457" stroke-width="1.00" rx="3" ry="3"/>
+    <text x="120.00" y="-83.20" font-family="Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="hanging">Research/
+Brainstorming</text>
+    <text x="240.00" y="0.00" font-family="Arial, sans-serif" font-size="10" font-weight="bold" font-style="normal" fill="#424242" dominant-baseline="middle" text-anchor="middle">May</text>
+  <line x1="240.00" y1="103.20" x2="240.00" y2="0.00" stroke="#616161" stroke-width="1.00" />
+  <line x1="240.00" y1="0.00" x2="220.00" y2="0.00" stroke="#616161" stroke-width="1.00" />
+  <polygon points="215.00,0.00 225.00,0.00 220.00,-6.00" fill="red"/>\n    <rect x="150.50" y="50.00" width="179.00" height="53.20" fill="#F44336" stroke="#F44336" stroke-width="1.00" rx="3" ry="3"/>
+    <text x="240.00" y="70.00" font-family="Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="hanging">Initial Designs</text>
+    <text x="360.00" y="0.00" font-family="Arial, sans-serif" font-size="10" font-weight="bold" font-style="normal" fill="#424242" dominant-baseline="middle" text-anchor="middle">June</text>
+  <line x1="360.00" y1="-103.20" x2="360.00" y2="-20.00" stroke="#616161" stroke-width="1.00" />
+  <line x1="360.00" y1="-20.00" x2="380.00" y2="-20.00" stroke="#616161" stroke-width="1.00" />
+  <polygon points="375.00,-20.00 385.00,-20.00 380.00,-14.00" fill="#000000"/>\n    <rect x="270.50" y="-103.20" width="179.00" height="53.20" fill="#00695C" stroke="#00695C" stroke-width="1.00" rx="3" ry="3"/>
+    <text x="360.00" y="-83.20" font-family="Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="hanging">User Surveys/QA</text>
+    <text x="480.00" y="0.00" font-family="Arial, sans-serif" font-size="10" font-weight="bold" font-style="normal" fill="#424242" dominant-baseline="middle" text-anchor="middle">July</text>
+  <line x1="480.00" y1="103.20" x2="480.00" y2="20.00" stroke="#616161" stroke-width="1.00" />
+  <line x1="480.00" y1="20.00" x2="460.00" y2="20.00" stroke="#616161" stroke-width="1.00" />
+  <polygon points="455.00,20.00 465.00,20.00 460.00,14.00" fill="#000000"/>\n    <rect x="347.60" y="50.00" width="264.80" height="53.20" fill="#AD1457" stroke="#AD1457" stroke-width="1.00" rx="3" ry="3"/>
+    <text x="480.00" y="70.00" font-family="Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="hanging">Stakeholder
+Feedback Meeting</text>
+    <text x="600.00" y="0.00" font-family="Arial, sans-serif" font-size="10" font-weight="bold" font-style="normal" fill="#424242" dominant-baseline="middle" text-anchor="middle">August</text>
+  <line x1="600.00" y1="-103.20" x2="600.00" y2="-20.00" stroke="#616161" stroke-width="1.00" />
+  <line x1="600.00" y1="-20.00" x2="620.00" y2="-20.00" stroke="#616161" stroke-width="1.00" />
+  <polygon points="615.00,-20.00 625.00,-20.00 620.00,-14.00" fill="#000000"/>\n    <rect x="503.90" y="-103.20" width="192.20" height="53.20" fill="#FFB300" stroke="#FFB300" stroke-width="1.00" rx="3" ry="3"/>
+    <text x="600.00" y="-83.20" font-family="Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="hanging">Revisions Meeting</text>
+    <text x="720.00" y="0.00" font-family="Arial, sans-serif" font-size="10" font-weight="bold" font-style="normal" fill="#424242" dominant-baseline="middle" text-anchor="middle">September</text>
+  <line x1="720.00" y1="73.20" x2="720.00" y2="20.00" stroke="#616161" stroke-width="1.00" />
+  <line x1="720.00" y1="20.00" x2="700.00" y2="20.00" stroke="#616161" stroke-width="1.00" />
+  <polygon points="695.00,20.00 705.00,20.00 700.00,14.00" fill="#000000"/>\n    <rect x="616.00" y="50.00" width="208.00" height="23.20" fill="#0277BD" stroke="#0277BD" stroke-width="1.00" rx="3" ry="3"/>
+    <text x="720.00" y="55.00" font-family="Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="hanging">First Design Release
+to Public</text>
+    <text x="840.00" y="0.00" font-family="Arial, sans-serif" font-size="10" font-weight="bold" font-style="normal" fill="#424242" dominant-baseline="middle" text-anchor="middle">October</text>
+  <line x1="840.00" y1="-103.20" x2="840.00" y2="-20.00" stroke="#616161" stroke-width="1.00" />
+  <line x1="840.00" y1="-20.00" x2="860.00" y2="-20.00" stroke="#616161" stroke-width="1.00" />
+  <polygon points="855.00,-20.00 865.00,-20.00 860.00,-14.00" fill="#000000"/>\n    <rect x="697.70" y="-103.20" width="284.60" height="53.20" fill="#00838F" stroke="#00838F" stroke-width="1.00" rx="3" ry="3"/>
+    <text x="840.00" y="-83.20" font-family="Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="hanging">Second Design
+Release to Public</text>
+    <text x="960.00" y="0.00" font-family="Arial, sans-serif" font-size="10" font-weight="bold" font-style="normal" fill="#424242" dominant-baseline="middle" text-anchor="middle">November</text>
+  <line x1="960.00" y1="103.20" x2="960.00" y2="20.00" stroke="#616161" stroke-width="1.00" />
+  <line x1="960.00" y1="20.00" x2="940.00" y2="20.00" stroke="#616161" stroke-width="1.00" />
+  <polygon points="935.00,20.00 945.00,20.00 940.00,14.00" fill="#000000"/>\n    <rect x="860.60" y="50.00" width="198.80" height="53.20" fill="#AD1457" stroke="#AD1457" stroke-width="1.00" rx="3" ry="3"/>
+    <text x="960.00" y="70.00" font-family="Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="hanging">Project Completion</text>
+</g>
+</svg>
