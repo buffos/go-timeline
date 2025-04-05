@@ -454,7 +454,7 @@ func drawTimelineEntry(svg *bytes.Buffer, bounds *bounds, params TimelineEntryPa
 // --- Helper to find the edge point of the comment box ---
 func calculateCommentEdgePoint(layout CommentBlockLayout, crossAxisDir float64, isHorizontal bool) (float64, float64) {
 	// Calculate the center of the edge facing the timeline axis
-	if isHorizontal {
+		if isHorizontal {
 		if crossAxisDir < 0 { // Top edge center
 			return layout.blockX + layout.visualBlockWidth/2.0, layout.blockY
 		} else { // Bottom edge center
@@ -471,28 +471,28 @@ func calculateCommentEdgePoint(layout CommentBlockLayout, crossAxisDir float64, 
 
 // Determine the color for a marker based on style and defaults
 func determineMarkerColor(markerStyle JunctionMarkerStyle, segmentColor string, connStyle ConnectorStyle) string {
-	markerColor := segmentColor   // Marker color matches current segment/connector color
-	if markerStyle.Color != nil { // Allow explicit override
-		markerColor = *markerStyle.Color
-	} else {
-		// Fallback further to connector color if segment color is bland?
-		if connStyle.Color != "" {
-			markerColor = connStyle.Color
+		markerColor := segmentColor   // Marker color matches current segment/connector color
+		if markerStyle.Color != nil { // Allow explicit override
+			markerColor = *markerStyle.Color
+		} else {
+			// Fallback further to connector color if segment color is bland?
+			if connStyle.Color != "" {
+				markerColor = connStyle.Color
+			}
 		}
-	}
 	return markerColor
 }
 
 // --- Helper function to determine connector line style attributes ---
 func calculateConnectorStyleAttributes(style ConnectorStyle, segmentColor string) (string, float64, string) {
 	connDrawColor := style.Color
-	if connDrawColor == "" {
-		connDrawColor = segmentColor
-	}
+		if connDrawColor == "" {
+			connDrawColor = segmentColor
+		}
 	connDrawWidth := float64(style.Width)
-	if connDrawWidth <= 0 {
-		connDrawWidth = 1
-	}
+		if connDrawWidth <= 0 {
+			connDrawWidth = 1
+		}
 	connDashArray := getStrokeDashArray(style.LineType, int(connDrawWidth))
 	return connDrawColor, connDrawWidth, connDashArray
 }
@@ -761,7 +761,7 @@ func drawYearElement(svg *bytes.Buffer, bounds *bounds, entry TimelineEntry,
 		yearStyle.Font.FontWeight, yearStyle.Font.FontStyle, yearStyle.TextColor)
 	svg.WriteString(escapeXML(yearStr))
 	svg.WriteString(`</text>`)
-	svg.WriteString("\n")
+		svg.WriteString("\n")
 
 	// Update bounds for text
 	estWidth := math.Min(float64(len(yearStr))*float64(yearStyle.Font.FontSize)*0.7, 200)
@@ -985,8 +985,8 @@ func drawCommentTitle(svg *bytes.Buffer, bounds *bounds, params CommentTitlePara
 		params.Layout.contentCenterX, params.Layout.titleTextAbsY, params.TitleFont.FontFamily, params.TitleFont.FontSize,
 		params.TitleFont.FontWeight, params.TitleFont.FontStyle, params.TitleColor)
 	svg.WriteString(escapeXML(params.TitleText))
-	svg.WriteString(`</text>`)
-	svg.WriteString("\n")
+		svg.WriteString(`</text>`)
+		svg.WriteString("\n")
 	bounds.updatePoint(params.Layout.contentCenterX, params.Layout.titleTextAbsY) // Approximate bounds update
 }
 
@@ -1020,14 +1020,14 @@ func drawCommentBody(svg *bytes.Buffer, bounds *bounds, params CommentBodyParams
 
 	fmt.Fprintf(svg, `    <foreignObject x="%.2f" y="%.2f" width="%.2f" height="%.2f">`,
 		params.Layout.bodyAbsX, params.Layout.bodyAbsY, contentWidth, params.Layout.foHeight)
-	svg.WriteString("\n")
-	fmt.Fprintf(svg, `        <div xmlns="http://www.w3.org/1999/xhtml">`)
+		svg.WriteString("\n")
+		fmt.Fprintf(svg, `        <div xmlns="http://www.w3.org/1999/xhtml">`)
 
-	// Use text-align from style, default to center
+		// Use text-align from style, default to center
 	textAlign := params.Params.Style.TextAlign
-	if textAlign == "" {
-		textAlign = "center"
-	}
+		if textAlign == "" {
+			textAlign = "center"
+		}
 
 	// Prepare style string outside Fprintf for clarity
 	bodyStyle := fmt.Sprintf("color:%s; font-family:%s; font-size:%dpx; font-weight:%s; font-style:%s; text-align:%s;",
@@ -1061,19 +1061,19 @@ func drawCommentBody(svg *bytes.Buffer, bounds *bounds, params CommentBodyParams
 	}
 
 	if params.Params.BodyText != "" {
-		// Basic markdown link support: [text](url)
+			// Basic markdown link support: [text](url)
 		re := regexp.MustCompile(`\[([^\]]+)\]\(([^\)]+)\)`) // Escaped brackets
 		formattedText := re.ReplaceAllString(params.Params.BodyText, `<a href="$2" target="_blank">$1</a>`)
-		formattedText = strings.ReplaceAll(formattedText, "\n", "<br />") // Handle newlines
-		svg.WriteString(formattedText)
+			formattedText = strings.ReplaceAll(formattedText, "\n", "<br />") // Handle newlines
+			svg.WriteString(formattedText)
+			svg.WriteString("\n")
+		}
+
+		svg.WriteString(`</div></div>`)
+		svg.WriteString("\n")
+		svg.WriteString(`    </foreignObject>`)
 		svg.WriteString("\n")
 	}
-
-	svg.WriteString(`</div></div>`)
-	svg.WriteString("\n")
-	svg.WriteString(`    </foreignObject>`)
-	svg.WriteString("\n")
-}
 
 // Assemble the final SVG document
 func assembleFinalSVG(svgBody bytes.Buffer, timelineBounds bounds, layoutPadding float64, globalFont *FontStyle) string {
